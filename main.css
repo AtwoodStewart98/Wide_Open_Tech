@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  background-image: url(./wideopen-icons/img/wot-masthead-dark.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+nav {
+  height: 55px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  padding-right: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+}
+h1 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+  font-size: 155px;
+  font-weight: lighter;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  margin-top: -40px;
+  margin-left: 35%;
+  background-color: #BDD436;
+  width: 360px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+.body-txt {
+  padding: 40px 15% 40px 15%;
+  background-color: #F0F0F0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  color: #6a787c;
+}
+#orange {
+  color: #ff803a;
+}
+#yellowgreen {
+  color:#BDD436;
+}
+#big-guck {
+  color: #BDD436;
+  font-weight: bold;
+}
+.widetech-nav {
+  margin: 30px 54px 30px 54px;
+}
+.widetech-logo {
+  width: 157px;
+  height: 33px;
+}
+.burger-menu {
+  display: flex;
+}
+.small {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.digi-float {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 25%;
+  margin-left: 25%;
+  font-weight: bold;
+}
+.large {
+  margin-top: -50px;
+}
+.span-height {
+  height: 23px;
+}
+.gray-pgraph {
+  background-color: #F0F0F0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.yolo {
+  transform: scale(1,1.5);
+  font-size: 32px;
+}
+.container {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.god-donut-image {
+  position: absolute;
+  top: -100px;
+  left: -10px;
+}
+li:hover .span-height {
+  text-decoration: none;
+  border-bottom: 3px solid #BDD436;
+}
+h2:hover {
+  background-color: yellow;
+}
+
+@media (max-width: 930px) {
+  body {
+    background-size: 930px auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  ul {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .burger-menu {
+    display: none;
+  }
+}
